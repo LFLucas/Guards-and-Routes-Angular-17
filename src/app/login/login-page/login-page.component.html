@@ -1,0 +1,15 @@
+<section class="card">
+    <form [formGroup]="loginForm" class="card">
+        <div class="email">
+            <input type="email" id="email" formControlName="email">         
+            <label for="email" id="email-label">Email</label>
+        </div>
+
+        <div class="password">
+            <input type="password" id="password" formControlName="password">   
+            <label for="password"  id="password-label">Password</label>
+        </div>
+
+        <button id="submit" (click)="submit()">Log In</button>
+    </form>
+</section>
