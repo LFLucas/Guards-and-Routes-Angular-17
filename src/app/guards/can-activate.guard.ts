@@ -4,6 +4,6 @@ import { CanActivateFn } from '@angular/router';
 import {lastValueFrom} from 'rxjs'
 
 export const canActivateGuard: CanActivateFn = async (route, state) => {
-  
-  return true;
+  if(confirm("Deseja fazer Log In?")) return true
+  return false
 };
