@@ -13,7 +13,6 @@ export class LoginPageComponent {
     email: ["", [Validators.required, Validators.email]],
     password: ["", [Validators.required, Validators.minLength(8)]]
   })
-
  
   constructor(private formBuilder: FormBuilder,
               private router: Router){}

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginPageComponent } from '../login/login-page/login-page.component';
-import { canActivateChildGuard } from '../dashboard/guards/can-activate-child.guard';
+import { canActivateChildGuard } from '../guards/can-activate-child.guard';
 import { HomePageComponent } from '../home/home-page/home-page.component';
 
 const routes: Routes = [
