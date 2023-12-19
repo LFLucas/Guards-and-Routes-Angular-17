@@ -9,3 +9,5 @@ export const canMatchGuard: CanMatchFn = (route, segments) => {
   
   return true;
 };
+
+//permite ou nao o carregamento de um modulo
